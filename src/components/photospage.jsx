@@ -324,15 +324,8 @@ export default function PhotosPage() {
                 </div>
             </motion.div>
 
-            {/* ── single-column polaroid feed (randomised) ── */}
-            <div style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "3rem",
-                width: "100%",
-                maxWidth: 340,
-                zIndex: 1,
-            }}>
+            {/* ── single-column polaroid feed on mobile, grid on desktop (randomised) ── */}
+            <div className="gallery-col" style={{ zIndex: 1, width: "100%" }}>
                 {shuffled.map((p, i) => (
                     <Polaroid
                         key={i}

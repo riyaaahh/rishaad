@@ -128,10 +128,11 @@ export default function ClosingPage() {
 
       {/* ══════════════════════════════ MAIN CONTENT ══════════════════════════════ */}
       <motion.div
+        className="w-full max-w-[360px] md:max-w-[480px] lg:max-w-[560px]"
         initial={{ opacity: 0, scale: 0.94 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        style={{ position: "relative", zIndex: 10, width: "100%", maxWidth: 360 }}
+        style={{ position: "relative", zIndex: 10 }}
       >
         {/* ── HEADER SCRAP ── */}
         <motion.div

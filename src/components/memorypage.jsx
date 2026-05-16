@@ -142,15 +142,17 @@ export default function MemoryPage() {
                 ))}
 
                 {/* Polaroid card */}
-                <div style={{
-                    background: "#fffdf8",
-                    padding: "10px 10px 40px 10px",
-                    border: "1px solid #e0d5c0",
-                    boxShadow: "4px 6px 0 rgba(160,130,100,0.2), 0 12px 30px rgba(0,0,0,0.1)",
-                    borderRadius: 2,
-                    width: 300,
-                    position: "relative",
-                }}>
+                <div
+                    className="w-full max-w-[300px] md:max-w-[420px]"
+                    style={{
+                        background: "#fffdf8",
+                        padding: "10px 10px 40px 10px",
+                        border: "1px solid #e0d5c0",
+                        boxShadow: "4px 6px 0 rgba(160,130,100,0.2), 0 12px 30px rgba(0,0,0,0.1)",
+                        borderRadius: 2,
+                        position: "relative",
+                    }}
+                >
                     {/* Tiny corner doodles */}
                     {[
                         { char: "♡", s: { top: 7, left: 9, transform: "rotate(-15deg)" } },
@@ -190,6 +192,7 @@ export default function MemoryPage() {
 
             {/* Note card below */}
             <motion.div
+                className="w-full max-w-[300px] md:max-w-[420px]"
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
@@ -198,8 +201,6 @@ export default function MemoryPage() {
                     border: "1px solid rgba(180,160,130,0.25)",
                     borderRadius: 4,
                     padding: "1rem 1.2rem",
-                    maxWidth: 300,
-                    width: "100%",
                     textAlign: "center",
                     boxShadow: "2px 3px 0 rgba(180,150,120,0.15)",
                     transform: "rotate(0.8deg)",

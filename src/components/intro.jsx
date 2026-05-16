@@ -198,6 +198,7 @@ export default function Intro({ setShowLetter }) {
           duration 1.2, ease "easeOut"
          ══════════════════════════════════════════ */}
             <motion.div
+                className="w-full max-w-[340px] md:max-w-[460px]"
                 initial={{ opacity: 0, scale: 0.92 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.2, ease: "easeOut" }}
@@ -205,8 +206,6 @@ export default function Intro({ setShowLetter }) {
                     background: "#fffdf8",
                     borderRadius: 6,
                     padding: "1.6rem 1.5rem 1.8rem",
-                    maxWidth: 340,
-                    width: "100%",
                     textAlign: "center",
                     position: "relative",
                     border: "1px solid rgba(180,160,130,0.25)",

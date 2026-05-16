@@ -38,20 +38,21 @@ export default function LoveLetter() {
             }}
         >
             <motion.div
+                className="w-full max-w-[360px] md:max-w-[480px] lg:max-w-[560px]"
                 initial={{ opacity: 0, y: 60, scale: 0.9 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
                 style={{
                     position: "relative",
-                    width: "100%",
-                    maxWidth: "360px",
+                    paddingTop: "60px",
                 }}
             >
 
                 {/* ── TOP ROW: two polaroids + heart above the card ── */}
                 <div style={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    justifyContent: "center",
+                    gap: "20px",
                     alignItems: "flex-end",
                     marginBottom: "-18px",
                     paddingLeft: "6px",
@@ -72,7 +73,7 @@ export default function LoveLetter() {
                             borderRadius: 2,
                             boxShadow: "3px 5px 0 rgba(160,130,100,0.2), 0 10px 24px rgba(0,0,0,0.13)",
                             border: "1px solid #e0d5c0",
-                            width: "42%",
+                            width: 140,
                             position: "relative",
                             flexShrink: 0,
                         }}
