@@ -6,22 +6,22 @@ import img1 from "./../assets/img 1.JPG";
 import img2 from "./../assets/img 2.JPG";
 import img4 from "./../assets/img 4.JPG";
 import img6 from "./../assets/img 6.JPG";
-import img7 from "./../assets/img 7.JPG";
-import img8 from "./../assets/img 8.JPG";
+import img7 from "./../assets/img 7.jpg";
+import img8 from "./../assets/img 8.jpg";
 import img9 from "./../assets/Img 9.JPG";
-import img10 from "./../assets/Img 10.JPG";
-import img11 from "./../assets/Img 11.JPG";
+import img10 from "./../assets/img 10.jpg";
+import img11 from "./../assets/img 11.jpg";
 import img12 from "./../assets/Img 12.JPG";
 import img13 from "./../assets/Img 13.JPG";
 import img20 from "./../assets/img 20.JPG";
-import img14 from "./../assets/Img 14.JPG";
-import img15 from "./../assets/Img 15.JPG";
-import img16 from "./../assets/Img 16.JPG";
-import img17 from "./../assets/Img 17.JPG";
-import img18 from "./../assets/Img 18.JPG";
-import img19 from "./../assets/Img 19.JPG";
+import img14 from "./../assets/img 14.jpg";
+import img15 from "./../assets/img 15.jpg";
+import img16 from "./../assets/img 16.jpg";
+import img17 from "./../assets/img 17.jpg";
+import img18 from "./../assets/img 18.jpg";
+import img19 from "./../assets/img 19.jpg";
 
-import widePhoto from "./../assets/nunurishad.JPG";
+import widePhoto from "./../assets/nunurishad.jpg";
 
 /* ─── photo pool ─────────────────────────────────────────────────────── */
 const photoPool = [
