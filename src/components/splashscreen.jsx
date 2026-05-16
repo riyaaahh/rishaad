@@ -293,7 +293,7 @@ export default function SplashScreen() {
             fontFamily: "'Dancing Script', cursive",
           }}
         >
-          to my favourite noonu
+          to my favourite nunu
         </motion.p>
 
         {/* PHOTO GLOW */}

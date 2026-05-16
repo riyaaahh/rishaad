@@ -47,7 +47,7 @@ const PROMISES = [
 
   { text: "", style: "gap" },
 
-  { text: "You really mean a lot to me, noonu. 🤍", style: "bold" },
+  { text: "You really mean a lot to me, nunu. 🤍", style: "bold" },
 ];
 
 export default function ClosingPage() {
@@ -352,7 +352,7 @@ export default function ClosingPage() {
                     color: "#5a2a1a", marginBottom: "1rem", marginTop: 0, paddingLeft: 10,
                   }}
                 >
-                  To my noonu,
+                  To my nunu,
                 </motion.p>
 
                 {/* Promise lines */}
